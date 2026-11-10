@@ -25,7 +25,7 @@ npx playwright install chromium
 
 ```bash
 npx playwright test                                   # all tests
-npx playwright test `tests/invalid-zip.spec.ts`.      # one file
+npx playwright test tests/invalid-zip.spec.ts         # one file
 npx playwright test --headed                          # watch the browser
 npx playwright show-report                            # HTML report after a run
 ```
